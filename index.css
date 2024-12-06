@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 3rem;
+}
+
+.comp_name{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.header_nav_link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    gap: 1rem;
+}
+
+.header_link{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.header_nav_btn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header_btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
