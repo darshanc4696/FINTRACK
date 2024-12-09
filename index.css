@@ -54,7 +54,7 @@ body
 /* Hero Section */
 
 .hero{
-    margin-top: 6rem;
+    margin-top: 7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,6 +75,78 @@ body
     text-align: center;
     padding: 0em 10em;
 }
+
+/* Pricing Section */
+.pricing_title{
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0rem;
+}
+
+.price_description{
+    margin: 1rem 0rem;
+    letter-spacing: -0.05em;
+    font-size: 1.25rem;
+
+}
+
+.pricing{
+    margin: 8rem 0rem;
+}
+
+.pricing_box{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 9rem;
+
+}
+
+.cost_box{
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 2em;
+    width: 20rem;
+}
+
+.cost{
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+.pricing_category{
+    margin: 1rem 0rem;
+}
+
+.pricing_description{
+    color: gray;
+    letter-spacing: -0.05em;
+}
+
+.cost_btn{
+    margin-top: 1rem;
+    border-radius: 100000000rem;
+    padding: 0.5em 1em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.list_items{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1rem;
+}
+
+.list_items > li{
+    padding: 0.5em 0rem;
+    list-style-type: disc;
+}
+
+
+
 
 
 
