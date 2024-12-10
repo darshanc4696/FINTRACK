@@ -8,7 +8,8 @@
 
 body
 {
-    background-color: #FFFAF0;
+    /* background-color: #FFFAF0; */
+    background-color: #fff;
 }
 
 /* Header Section */
@@ -108,7 +109,7 @@ body
     color: white;
     border-radius: 20px;
     flex-direction: column;
-    padding: 2em;
+    padding: 2em 1.5em;
     width: 20rem;
 }
 
